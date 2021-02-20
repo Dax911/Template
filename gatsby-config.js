@@ -6,10 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Dax Dev`,
+    siteTitleAlt: `Dax the Developer`,
+    siteHeadline: `Dax the Developer for react-native applications`,
+    siteUrl: `https://www.daxdev.io`,
+    siteDescription: `Playful and Colorful One-Page portfolio for Dax the developer`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@HaydenAylor`,
   },
   plugins: [
     {
