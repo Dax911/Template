@@ -59,7 +59,7 @@ typings/
 
 .cache
 **/.cache
-public
+page-data
 about.tsx
 contact.tsx
 hero.tsx
