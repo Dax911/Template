@@ -17,17 +17,18 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "G-ZVSF3DMMYR",
         head: true,
       },
     },
+    {
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      // See the theme's README for all available options
+      options: {},
+    },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
